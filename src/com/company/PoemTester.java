@@ -1,8 +1,5 @@
 package com.company;
 
-import com.company.Haiku;
-import com.company.Limerick;
-
 public class PoemTester {
     public static void main(String[] args) {
         System.out.println("Poem:");
@@ -11,14 +8,14 @@ public class PoemTester {
         p1.printRhythm();
         System.out.println();
 
-        System.out.println("com.company.Haiku:");
+        System.out.println("Haiku:");
         Haiku h1 = new Haiku();
         System.out.println(h1.getNumLines());
         System.out.println(h1.getSyllables(2));
         h1.printRhythm();
         System.out.println();
 
-        System.out.println("com.company.Limerick:");
+        System.out.println("Limerick:");
         Limerick lim1 = new Limerick();
         System.out.println(lim1.getNumLines());
         System.out.println(lim1.getSyllables(2));
